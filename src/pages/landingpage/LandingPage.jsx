@@ -4,6 +4,7 @@ import gif from '../../assets/gif.gif'
 import logo from '../../assets/fcclogo.png'
 
 const LandingPage = () => {
+
   const navigate = useNavigate()
   const handleLogin = (e) => {
     e.preventDefault()

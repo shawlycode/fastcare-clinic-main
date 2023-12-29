@@ -11,8 +11,12 @@ import IndividualsAndGroups from './pages/sidebarPages/IndividualsAndGroups';
 import { MakePayments, PaymentsConfirmation, ViewPayments } from './pages/sidebarPages/Payments';
 
 const App = () => {
+
   return (
+
     <>
+
+
       <Sidebar />
       <Routes>
         <Route path="/" exact element={<LandingPage />} />

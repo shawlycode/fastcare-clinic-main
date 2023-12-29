@@ -35,6 +35,7 @@ const SidebarNav = styled.nav`
 `
 
 const Sidebar = ({ children }) => {
+
   const user = auth.getCurrentUser()
 
   const [sidebar, setSidebar] = useState(true)
@@ -43,6 +44,7 @@ const Sidebar = ({ children }) => {
 
   return (
     <>
+
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className="icon__container">
           <NavIcon to="#">
