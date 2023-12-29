@@ -1,0 +1,40 @@
+.container-1 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem;
+}
+.landing__page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.left__container p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .landing__page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+}
+.logo {
+  width: 200px;
+}
+.btn-warning {
+  padding: 0.3rem 2rem 0.3rem 2rem;
+}
+@media screen and (max-width: 600px) {
+  .header__right-profile img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 2rem;
+  }
+  .container-1 {
+    padding: 1rem;
+  }
+}

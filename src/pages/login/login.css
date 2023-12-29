@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  margin-top: 8rem;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+  grid-template-columns: repeat(2, 1fr);
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.262) 0px 30px 90px;
+  padding: 2rem;
+  border-radius: 0.9rem;
+}
+.login__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 400px;
+  align-self: center;
+}
+section {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+form {
+  width: 90%;
+}
+.form__right img {
+  width: 87%;
+  object-fit: cover;
+}
+.logo {
+  width: 200px;
+  margin-left: 3rem;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 90%;
+  }
+  .logo {
+    width: 1005;
+    /* height: 120px; */
+    margin-left: 1rem;
+    object-fit: cover;
+  }
+}

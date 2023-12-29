@@ -1,0 +1,39 @@
+.dropdown-toggle {
+  color: #ffff;
+  font-size: 22px;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+.dropdown ul {
+  background: #023e8a;
+  border: none;
+  color: #ffff;
+}
+.dropdown-menu {
+  background-color: #012047;
+  border: none;
+  align-items: center;
+  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.dropdown ul a:hover {
+  background-color: transparent;
+  color: rgb(148, 202, 249);
+}
+
+.logout__container a {
+  text-decoration: none;
+  color: #ffff;
+}
+.logout__items {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.logout__container a:hover {
+  color: #adcef9;
+  text-decoration: none;
+}
