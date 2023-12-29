@@ -13,13 +13,12 @@ import { MakePayments, PaymentsConfirmation, ViewPayments } from './pages/sideba
 const App = () => {
   return (
     <>
-
+      <Sidebar />
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
         <Route path="/login" exact element={<Login />} />
-
       </Routes>
-      <Sidebar />
+
       <Routes>
 
         <Route path="/staff" element={<Staff />} />
