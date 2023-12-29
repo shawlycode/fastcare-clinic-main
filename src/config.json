@@ -1,0 +1,7 @@
+{
+  "apiUrl_": "http://localhost:41636/api",
+  "apiUrl": "https://sub.fastcareportal.com/api/api",
+  "reportUrl": "https://sub.fastcareportal.com/reporting",
+  "product1MandateAPIKey": "encsRCb91PWIKd8lfA9aADuKOsXZZWQy",
+  "product2MandateAPIKey": "p54hndu0ue8nasvqhiqpig2603dh71qf"
+}
