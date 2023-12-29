@@ -17,7 +17,7 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
         <Route path="/login" exact element={<Login />} />
-        <Route path='/sidebar' element={<Sidebar />} />
+
       </Routes>
       <Sidebar />
       <Routes>
@@ -30,6 +30,8 @@ const App = () => {
         <Route path="/payments/viewPayments" element={<ViewPayments />} />
         <Route path="/payments/paymentsConfirmation" element={<PaymentsConfirmation />} />
         <Route path="/payments/makePayments" element={<MakePayments />} />
+
+        <Route path='/sidebar' element={<Sidebar />} />
       </Routes>
     </>
   );
