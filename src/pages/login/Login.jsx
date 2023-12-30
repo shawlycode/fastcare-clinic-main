@@ -63,7 +63,7 @@ const Login = () => {
       if (user.status === 'Change Required') {
         navigate('/resetpassword')
       } else {
-        navigate('/sidebar')
+        navigate('/dashboard')
       }
       setLoading(false)
     } catch (ex) {

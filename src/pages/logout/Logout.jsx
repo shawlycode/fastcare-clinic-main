@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './logout.css';
 import { FaUserTie } from 'react-icons/fa';
 import { PiGearSix } from 'react-icons/pi';
@@ -33,7 +33,7 @@ const Logout = () => {
           </div>
           <div className="logout__items">
             <RiLogoutCircleLine />
-            <a href="/logout" onClick={handleLogout}>LogOut</a>
+            <Link to="/logout" onClick={handleLogout}>LogOut</Link>
           </div>
         </div>
       </div>

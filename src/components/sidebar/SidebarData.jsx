@@ -15,6 +15,7 @@ import { FaUsersViewfinder } from 'react-icons/fa6';
 export const SidebarData = [
   {
     title: 'Dashboard',
+    path: "/dashboard",
     icon: <AiFillDashboard />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
