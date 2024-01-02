@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.staff,
+.userAccount {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 100px;
+}
+.content {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.34);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.content label {
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+
+.staff__container,
+.userAccount__container {
+  width: 1140px;
+  align-items: center;
+  padding-left: 100px;
+}
+.icon .header__icon {
+  font-size: 40px;
+}
+.header__text p {
+  font-size: 20px;
+}
+.form {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: auto;
+  padding: 2rem;
+}
+.btn {
+  width: 150px;
+  background-color: #023e8a;
+  color: #fff;
+  outline: none;
+  border-style: none;
+}
+.btn:hover {
+  width: 180px;
+
+  color: #ffffff65;
+}
+.btn span {
+  padding-right: 5px;
+  color: #fff;
+}
+.new__staff-container {
+  margin: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.577);
+  border-radius: 0.3rem;
+  padding: 1.2rem;
+}
+.table__data {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #023e8a; */
+  align-items: center;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+.table__data p {
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+.table__data-container {
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.577);
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+}
+thead {
+  background: rgba(0, 0, 255, 0.318);
+}
+tr {
+  padding: 2rem;
+}
+.submit__btn,
+.changePassword__btn {
+  background: transparent;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid blue;
+  color: black;
+  transition: 0.45ms ease;
+}
+.submit__btn:hover,
+.changePassword__btn:hover {
+  background: blue;
+  color: #fff;
+}
+.menu {
+  background: red;
+}

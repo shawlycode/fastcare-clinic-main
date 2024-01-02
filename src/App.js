@@ -3,10 +3,10 @@ import { Route, Routes } from 'react-router-dom';
 import Login from './pages/login/Login';
 import LandingPage from './pages/landingpage/LandingPage';
 import Sidebar from './components/sidebar/Sidebar';
-import Staff from './pages/sidebarPages/Staff';
+import Staff from './pages/sidebarPages/staff/Staff';
 import UserAccount from './pages/sidebarPages/UserAccount';
 import ResetPassword from './pages/sidebarPages/ResetPassword';
-import SubscriptionIndividual from './pages/sidebarPages/SubscriptionIndividual';
+import IndividualSubscription from './pages/sidebarPages/subs/IndividualSubscription';
 import IndividualsAndGroups from './pages/sidebarPages/IndividualsAndGroups';
 import Dashboard from './pages/sidebarPages/Dashboard';
 import {
@@ -25,7 +25,7 @@ export const MainPages = () => (
         <Route path='main/resetPassword' element={<ResetPassword />} />
         <Route
           path='main/subscription/individual'
-          element={<SubscriptionIndividual />}
+          element={<IndividualSubscription />}
         />
         <Route
           path='main/subscriptions/individuals/groups'
