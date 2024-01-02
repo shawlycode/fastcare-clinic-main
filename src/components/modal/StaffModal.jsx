@@ -23,12 +23,10 @@ const StaffModal = () => {
                   <div className="input__container">
                     <div className="input">
                       <div className="input1">
-                        {/* <label for="recipient-name" className="col-form-label">Staff Code:</label> */}
-                        <input type="text" className="form-control" id="recipient-name" placeholder="Auto Staff Code" />
+                        <input type="text" className="form-control" id="staffCode" placeholder="Auto Staff Code" />
                       </div>
                       <div class="input-group mb-3 drop__down">
-
-                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <select class="form-select" id="title" aria-label="Example select with button addon">
                           <option selected>Select Title</option>
                           <option value="1">Mr</option>
                           <option value="2">Mrs</option>
@@ -41,64 +39,61 @@ const StaffModal = () => {
                     </div>
                     <div className="input">
                       <div className="input__names">
-                        <input type="text" className="form-control" id="recipient-name" placeholder="First Name" />
-                        <input type="text" className="form-control" id="recipient-name" placeholder="Last Name" />
-                        <input type="text" className="form-control" id="recipient-name" placeholder="Other Names" />
+                        <input type="text" className="form-control" id="firstName" placeholder="First Name" />
+                        <input type="text" className="form-control" id="lastName" placeholder="Last Name" />
+
                       </div>
                     </div>
                     <div className="input">
                       <div className="input__names">
-                        <input type="number" className="form-control" id="recipient-name" placeholder="Phone Number" />
-                        <input type="text" className="form-control" id="recipient-name" placeholder="Position" />
-                        {/* <input type="text" className="form-control" id="recipient-name" placeholder="Other Names" /> */}
+                        <input type="text" className="form-control" id="otherNames" placeholder="Other Names" />
                       </div>
-                    </div>
-                    <div className="input">
                       <div class="input-group mb-3 drop__down">
-                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <select class="form-select" id="gender" aria-label="Example select with button addon">
                           <option selected> Gender</option>
                           <option value="1">Male</option>
                           <option value="2">Female</option>
                           <option value="3">Other</option>
                         </select>
                       </div>
+                    </div>
+                    <div className="input">
                       <div className="input__names">
-                        <input type="text" className="form-control" id="recipient-name" placeholder="Nationality" />
-                        <input type="text" className="form-control" id="recipient-name" placeholder="National ID Number" />
+                        <input type="number" className="form-control" id="phoneNumber" placeholder="Phone Number" />
+                        <input type="text" className="form-control" id="nationality" placeholder="Nationality" />
                       </div>
                     </div>
                     <div className="input">
-                      <div class="input-group mb-3 drop__down">
-                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                          <option selected> Marital Status</option>
-                          <option value="1">Male</option>
-                          <option value="2">Female</option>
-                          <option value="3">Other</option>
-                        </select>
+                      <div className="input__names">
+                        <input type="text" className="form-control" id="position" placeholder="Position" />
                       </div>
                       <div class="input-group mb-3 drop__down">
-                        <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                          <option selected> Date of Birth</option>
-                          <option value="1">Male</option>
-                          <option value="2">Female</option>
-                          <option value="3">Other</option>
+                        <select className="form-select" id="maritalStatus" aria-label="Example select with button addon">
+                          <option selected className="optionTitle"> Marital Status</option>
+                          <option value="1">Married</option>
+                          <option value="2">Single</option>
                         </select>
+                      </div>
+                    </div>
+                    <div className="input">
+                      <div className="input__names">
+                        <input type="text" className="form-control" id="national" placeholder="National ID" />
+                        <input type="date" className="form-control" id="dateOfBirth" placeholder=" Date of Birth" />
                       </div>
 
                     </div>
-
                   </div>
                 </div>
               </form>
             </div>
             <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-              <button type="button" className="btn btn-primary">Update</button>
+              <button type="button" className="btn" data-bs-dismiss="modal">Cancel</button>
+              <button type="button" className="btn ">Update</button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }
 

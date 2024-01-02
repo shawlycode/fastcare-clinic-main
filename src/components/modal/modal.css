@@ -1,19 +1,16 @@
 .input__container {
   align-items: center;
   justify-content: center;
-  /* padding: 0.9rem; */
-  /* background-color: red; */
 }
 .input {
   display: flex;
   align-items: center;
-
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
-.input1 {
+/* .input1 {
   width: 400px;
-}
+} */
 .modal-content {
   width: 650px;
   position: absolute;
@@ -25,10 +22,18 @@
 
 .drop__down {
   margin-top: 16px;
-  width: 250px;
 }
 .input__names {
   display: flex;
   width: 100%;
-  gap: 0.3rem;
+  gap: 2rem;
+  border: none;
+}
+::placeholder {
+  /* background-color: cadetblue; */
+  font-size: 12px;
+  color: rgb(174, 172, 170) !important;
+}
+.form-select {
+  color: rgb(132, 130, 127);
 }
