@@ -1,0 +1,14 @@
+.indSubs {
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.indSubs__container {
+  width: 1140px;
+
+  padding-left: 120px;
+  /* background: red; */
+  justify-content: flex-start;
+}
+.insubs__content {
+  border: 1px solid grey;
+}
