@@ -1,10 +1,10 @@
 import { IoMdAdd } from "react-icons/io";
-import './modal.css'
+import './subsModal.css'
 
 
 
 
-const StaffModal = () => {
+const SubsModal = () => {
   return (
     <div className="modal__container">
       <button type="button" className="btn addNew__btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><span><IoMdAdd /></span>Add New Staff</button>
@@ -97,4 +97,4 @@ const StaffModal = () => {
   )
 }
 
-export default StaffModal
+export default SubsModal

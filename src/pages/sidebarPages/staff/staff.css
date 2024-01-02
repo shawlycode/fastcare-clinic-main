@@ -44,19 +44,19 @@
   margin: auto;
   padding: 2rem;
 }
-.btn {
+.addNew__btn {
   width: 150px;
-  background-color: #023e8a;
+  background: #023e8a;
   color: #fff;
   outline: none;
   border-style: none;
+  padding: 1rem;
 }
-.btn:hover {
-  width: 180px;
-
-  color: #ffffff65;
+.addNew__btn:hover {
+  color: #fffffff1;
+  background: #0252bb;
 }
-.btn span {
+.addNew__btn span {
   padding-right: 5px;
   color: #fff;
 }
@@ -95,6 +95,7 @@ tr {
   background: transparent;
   color: #fff;
   padding: 0.6rem;
+  margin-top: 2rem;
   border-radius: 0.3rem;
   border: none;
   font-size: 18px;
@@ -108,6 +109,6 @@ tr {
   background: blue;
   color: #fff;
 }
-.menu {
-  background: red;
+.floating__input {
+  width: 500px;
 }
