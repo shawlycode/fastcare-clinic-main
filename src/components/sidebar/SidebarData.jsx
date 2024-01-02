@@ -15,7 +15,7 @@ import { FaUsersViewfinder } from 'react-icons/fa6';
 export const SidebarData = [
   {
     title: 'Dashboard',
-    path: "/dashboard",
+    path: "/main/dashboard",
     icon: <AiFillDashboard />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
@@ -29,17 +29,17 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Staff',
-        path: '/staff',
+        path: '/main/staff',
         icon: <FaUserTie />,
       },
       {
         title: 'User Account',
-        path: '/userAccount',
+        path: 'main/userAccount',
         icon: <FaUserCog />,
       },
       {
         title: 'Reset Password',
-        path: '/resetPassword',
+        path: 'main/resetPassword',
         icon: <TbPasswordUser />,
       },
     ],
@@ -52,13 +52,13 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Individuals Subscriptions',
-        path: '/subscription/individual',
+        path: 'main/subscription/individual',
         icon: <FaCcMastercard />,
         cName: 'sub-nav',
       },
       {
         title: 'Individuals & Groups',
-        path: '/subscriptions/individuals/groups',
+        path: 'main/subscriptions/individuals/groups',
         // icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav',
       },
@@ -74,7 +74,7 @@ export const SidebarData = [
     subNav: [
       {
         title: 'View Payments',
-        path: '/payments/viewPayments',
+        path: 'main/payments/viewPayments',
         // icon: <IoIcons.IoIosPaper />
       },
       {
@@ -84,14 +84,14 @@ export const SidebarData = [
       },
       {
         title: 'Payments Confirmation',
-        path: '/payments/paymentsConfirmation',
+        path: 'main/payments/paymentsConfirmation',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
   },
   {
     title: 'Customer Care Center',
-    path: '/customer/care',
+    path: 'main/customer/care',
     icon: <RiCustomerService2Fill />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
@@ -99,7 +99,7 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Call Subscribers',
-        path: '/payments/view/payments',
+        path: 'main/payments/view/payments',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
