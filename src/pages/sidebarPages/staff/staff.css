@@ -160,7 +160,6 @@ tr {
   .new__staff-container {
     border: 1px solid rgba(128, 128, 128, 0.577);
     height: 100vh;
-    margin: 0.5rem;
   }
   thead th {
     font-size: 12px;
