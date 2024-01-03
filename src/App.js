@@ -7,7 +7,7 @@ import Staff from './pages/sidebarPages/staff/Staff';
 import UserAccount from './pages/sidebarPages/UserAccount';
 import ResetPassword from './pages/sidebarPages/ResetPassword';
 import IndividualSubscription from './pages/sidebarPages/subs/IndividualSubscription';
-import IndividualsAndGroups from './pages/sidebarPages/IndividualsAndGroups';
+import IndividualsAndGroups from './pages/sidebarPages/subs/IndividualsAndGroups';
 import Dashboard from './pages/sidebarPages/Dashboard';
 import {
   MakePayments,

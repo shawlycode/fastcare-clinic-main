@@ -2,7 +2,7 @@ import React from 'react'
 import './indsubs.css'
 import logo from '../../../assets/fcclogo.png'
 import { CiEdit } from "react-icons/ci";
-
+import StaffModal from '../../../components/modal/StaffModal';
 
 
 const IndividualSubscription = () => {
@@ -18,22 +18,19 @@ const IndividualSubscription = () => {
               </p>
             </div>
           </div>
-          <div className="header_input">
-            <div className="form-floating mb-3">
-              <input type="text" className="form-control" id="floatingInput" />
-              <label for="floatingInput">Search with Name or Membership ID</label>
-            </div>
-            <button className='addSubs__btn'> + Subscriber</button>
+          <div className="form">
+            <input type="text" class="form-control" aria-label="input" placeholder="Search  with name or membership ID" />
+            <StaffModal />
           </div>
           <div className="table__data indSubs-table">
             <table class="table">
               <thead>
                 <tr>
                   <th scope="col">#</th>
+                  <th scope="col">MID</th>
                   <th scope="col">FullName</th>
-                  <th scope="col">Gender</th>
-                  <th scope="col">Date of Birth</th>
-                  <th scope="col">Phone Number</th>
+                  <th scope="col">Contact Number</th>
+                  <th scope="col">Facility</th>
                   <th scope="col">Edit</th>
                 </tr>
               </thead>
