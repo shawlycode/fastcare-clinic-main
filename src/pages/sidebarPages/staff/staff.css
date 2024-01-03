@@ -126,7 +126,7 @@ tr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 0;
+    padding-left: 50px;
   }
   .form-control {
     width: 100%;
@@ -158,6 +158,6 @@ tr {
     background: #0252bb;
   }
   .modal__staff {
-    width: 100%;
+    width: 80%;
   }
 }
