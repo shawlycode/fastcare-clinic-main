@@ -40,7 +40,7 @@ const Staff = () => {
                     <th scope="col">FullName</th>
                     <th scope="col">Gender</th>
                     <th scope="col">Date of Birth</th>
-                    <th scope="col">Phone Number</th>
+                    <th scope="col">Contact</th>
                     <th scope="col">Edit</th>
                   </tr>
                 </thead>
