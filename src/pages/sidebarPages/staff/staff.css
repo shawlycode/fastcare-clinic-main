@@ -69,7 +69,6 @@
 .table__data {
   display: flex;
   justify-content: space-around;
-  /* background-color: #023e8a; */
   align-items: center;
   color: #fff;
   border-radius: 0.3rem;
@@ -90,25 +89,75 @@ thead {
 tr {
   padding: 2rem;
 }
-.submit__btn,
-.changePassword__btn {
-  background: transparent;
-  color: #fff;
-  padding: 0.6rem;
-  margin-top: 2rem;
-  border-radius: 0.3rem;
-  border: none;
-  font-size: 18px;
-  font-weight: 600;
-  border: 1px solid blue;
-  color: black;
-  transition: 0.45ms ease;
-}
-.submit__btn:hover,
-.changePassword__btn:hover {
-  background: blue;
-  color: #fff;
-}
-.floating__input {
-  width: 500px;
+
+/* media querries */
+
+@media screen and (max-width: 600px) {
+  .staff {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 1.4rem;
+    margin: 0;
+  }
+  .icon {
+    display: none;
+  }
+  .header__text p {
+    font-size: 14px;
+    padding-top: 5rem;
+  }
+  .staff__container,
+  .userAccount__container {
+    width: 100%;
+    align-items: center;
+    padding-left: 0;
+  }
+  .form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .table__data {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .new__staff-container {
+    border: 1px solid rgba(128, 128, 128, 0.577);
+    height: 100vh;
+    margin: 0.5rem;
+  }
+  thead th {
+    font-size: 12px;
+  }
+  tbody td {
+    font-size: 12px;
+  }
+  .addNew__btn {
+    width: 100%;
+    background: #023e8a;
+    color: #fff;
+    outline: none;
+    border-style: none;
+  }
+  .addNew__btn:hover {
+    color: #fffffff1;
+    background: #0252bb;
+  }
+  .modal__staff {
+    width: 100%;
+  }
 }

@@ -3,11 +3,6 @@ import logo from '../../../assets/fcclogo.png';
 
 
 
-
-
-
-
-
 const IndividualsAndGroups = () => {
   return (
     <div className='ind__groups-subs'>
