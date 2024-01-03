@@ -52,6 +52,24 @@
   border-style: none;
   padding: 1rem;
 }
+.submit__btn,
+.changePassword__btn {
+  background: #0252bb;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: #ffff;
+  font-size: 16px;
+}
+.submit__btn:hover,
+.changePassword__btn:hover {
+  background: #02449acb;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: none;
+  color: #ffff;
+  font-size: 16px;
+}
 .addNew__btn:hover {
   color: #fffffff1;
   background: #0252bb;
@@ -67,7 +85,7 @@
   padding: 1.2rem;
 }
 .table__data {
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   align-items: center;
   color: #fff;
@@ -85,9 +103,13 @@
 }
 thead {
   background: rgba(0, 0, 255, 0.318);
+  /* width: 100%; */
 }
 tr {
   padding: 2rem;
+}
+.drop__down {
+  z-index: -50;
 }
 
 /* media querries */
@@ -95,7 +117,7 @@ tr {
 @media screen and (max-width: 672px) {
   .staff {
     width: 100vw;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     justify-content: center;
     padding-bottom: 3rem;
@@ -152,12 +174,43 @@ tr {
     color: #fff;
     outline: none;
     border-style: none;
+    margin-bottom: 2rem;
   }
   .addNew__btn:hover {
     color: #fffffff1;
     background: #0252bb;
   }
   .modal__staff {
-    width: 80%;
+    width: 100%;
+  }
+  .changePassword__btn {
+    width: 100%;
+    background: #023e8a;
+    color: #fff;
+    outline: none;
+    border-style: none;
+  }
+  .userAccount__container {
+    padding: 1rem;
+  }
+  .userAccount {
+    padding: 0;
+    height: 100vh;
+    padding-bottom: 5rem;
+  }
+  .header {
+    padding: 1rem;
+    margin: 0;
+  }
+  .icon {
+    display: none;
+  }
+  .header__text {
+    margin: 0;
+    padding: 0;
+  }
+  .table__data-container {
+    height: 100vh;
+    z-index: -20;
   }
 }

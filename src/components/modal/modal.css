@@ -34,3 +34,20 @@
 .form-select {
   color: rgb(132, 130, 127);
 }
+
+/* media queries */
+
+@media screen and (max-width: 672px) {
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  }
+  .input__container {
+    /* display: flex; */
+  }
+  .input {
+    display: flex;
+    /* flex-direction: column; */
+  }
+}

@@ -32,11 +32,11 @@ const Staff = () => {
         </div>
         <div className="new__staff-container">
           <div className="table__data">
-            <div className="table-responsive">
+            <div className="table-responsive-sm-md-lg">
               <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col" className="tdata">#</th>
+                    <th scope="col" >#</th>
                     <th scope="col">FullName</th>
                     <th scope="col">Gender</th>
                     <th scope="col">Date of Birth</th>
@@ -50,7 +50,7 @@ const Staff = () => {
                     <td>Mark</td>
                     <td>Male</td>
                     <td>12/03/1980</td>
-                    <td>+233 0200000003</td>
+                    <td>0200000003</td>
                     <td><CiEdit color="black " size={'22px'} cursor={'pointer'} /></td>
                   </tr>
                   <tr>
@@ -58,7 +58,7 @@ const Staff = () => {
                     <td>Jacob</td>
                     <td>Male</td>
                     <td>28/08/1999</td>
-                    <td>+233 0200000003</td>
+                    <td> 0200000003</td>
                     <td><CiEdit color="black " size={'22px'} cursor={'pointer'} /></td>
                   </tr>
                   <tr>
@@ -66,7 +66,7 @@ const Staff = () => {
                     <td>Larry Silvia</td>
                     <td>Female</td>
                     <td>05/08/1989</td>
-                    <td>+233 0200000003</td>
+                    <td>0200000003</td>
                     <td><CiEdit color="black " size={'22px'} cursor={'pointer'} /></td>
                   </tr>
                 </tbody>

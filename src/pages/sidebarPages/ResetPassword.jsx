@@ -7,7 +7,7 @@ const ResetPassword = () => {
         <div className="header">
           <div className="icon"></div>
           <div className="header__text">
-            <p> Change User Password</p>
+            <h4>Change User Password</h4>
             <p>
               A user account is an established technique for connecting a user
               and an information service and/or computer network. User accounts
