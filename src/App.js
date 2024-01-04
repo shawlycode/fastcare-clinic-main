@@ -13,7 +13,11 @@ import {
   MakePayments,
   PaymentsConfirmation,
   ViewPayments,
+
 } from './pages/sidebarPages/payments/Payments';
+import { CallSubscribers } from './pages/sidebarPages/customerCare/CareCenter';
+
+
 
 export const MainPages = () => (
   <Sidebar>
@@ -32,11 +36,10 @@ export const MainPages = () => (
           element={<IndividualsAndGroups />}
         />
         <Route path='main/payments/viewPayments' element={<ViewPayments />} />
-        <Route
-          path='main/payments/paymentsConfirmation'
-          element={<PaymentsConfirmation />}
-        />
+        <Route path='main/payments/paymentsConfirmation' element={<PaymentsConfirmation />} />
         <Route path='main/payments/makePayments' element={<MakePayments />} />
+        <Route path='main/customer/care' element={<CallSubscribers />} />
+
       </Routes>
     </div>
   </Sidebar>

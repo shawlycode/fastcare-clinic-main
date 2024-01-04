@@ -79,7 +79,7 @@ export const SidebarData = [
       },
       {
         title: 'Make Payments',
-        path: '/payments/makePayments',
+        path: 'main/payments/makePayments',
         // icon: <IoIcons.IoIosPaper />
       },
       {
@@ -91,7 +91,7 @@ export const SidebarData = [
   },
   {
     title: 'Customer Care Center',
-    path: 'main/customer/care',
+    path: '',
     icon: <RiCustomerService2Fill />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
@@ -99,8 +99,8 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Call Subscribers',
-        path: 'main/payments/view/payments',
-        // icon: <IoIcons.IoIosPaper />
+        path: 'main/customer/care',
+
       },
     ],
   },
@@ -113,19 +113,19 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Check Mandate Details',
-        path: '/autodebits/mandate',
+        path: 'main/autodebits/mandate',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'UnMandated Subscribers',
-        path: '/autodebits/unmandated/subs',
+        path: 'main/autodebits/unmandated/subs',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
   },
   {
     title: 'Reports & Analysis',
-    path: '/reports',
+    path: 'main/reports',
     icon: <LuLineChart />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
@@ -137,12 +137,12 @@ export const SidebarData = [
       },
       {
         title: 'Facility Performance',
-        path: '/reports/facility/performance',
+        path: 'main /reports/facility/performance',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Staff Collection Performance',
-        path: '/reports/facility/performance',
+        path: 'main/reports/facility/performance',
         // icon: <IoIcons.IoIosPaper />
       },
       {

@@ -5,7 +5,7 @@ const ViewPayments = () => {
     <div className="viewPayment">
       <div className="view-container">
         <div className="view__header">
-          <BsCashCoin size={'54px'} color="black" />
+          <BsCashCoin size={'54px'} color="black" className="icon" />
           <p>You can create a report of all payments received over a date range. This will show all payments entered against a subscription record regardless of whether it was a renewal payment or a initial subscription payment recorded.</p>
         </div>
         <div className="input__container">
@@ -29,7 +29,8 @@ const ViewPayments = () => {
           <div className="paymentStatus">
             <h2>Total Payments: GHS 0. 00</h2>
           </div>
-          <div className="table-responsive-sm-md-lg">
+          <div className="table__data">
+            {/* <div className="table-responsive-sm-md-lg"> */}
             <table class="table">
               <thead>
                 <tr>
@@ -51,7 +52,7 @@ const ViewPayments = () => {
                   <td>FCX08</td>
                   <td>Family</td>
                   <td> Momo</td>
-                  <td> Full Package</td>
+                  <td> VIP</td>
                   <td> 1,500</td>
                   <td className="active"> Active</td>
 
@@ -59,6 +60,7 @@ const ViewPayments = () => {
 
               </tbody>
             </table>
+            {/* </div> */}
           </div>
         </div>
       </div>
