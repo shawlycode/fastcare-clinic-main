@@ -25,8 +25,8 @@ const Staff = () => {
           </div>
         </div>
         <div className="form">
-          <input type="text" className="form-control" aria-label="input" placeholder="Search" />
-          <div className="modal__staff">
+          <input type="text" className="form-control" aria-label="input" placeholder="Search  with name or membership ID" />
+          <div className="btn__inds">
             <StaffModal />
           </div>
         </div>
