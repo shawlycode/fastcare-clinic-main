@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ViewPayment from './ViewPayment';
 export const Payments = () => {
   return (
     <div className='Payments'>
@@ -11,7 +11,7 @@ export const Payments = () => {
 export const ViewPayments = () => {
   return (
     <div className='Payments'>
-      <h1>Payments/ViewPayments</h1>
+      <ViewPayment />
     </div>
   );
 };

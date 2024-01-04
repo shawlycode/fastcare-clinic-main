@@ -13,7 +13,7 @@ import {
   MakePayments,
   PaymentsConfirmation,
   ViewPayments,
-} from './pages/sidebarPages/Payments';
+} from './pages/sidebarPages/payments/Payments';
 
 export const MainPages = () => (
   <Sidebar>

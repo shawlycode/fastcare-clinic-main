@@ -1,0 +1,82 @@
+.viewPayment {
+  margin: auto;
+  width: 1140px;
+  align-items: center;
+  padding-left: 100px;
+}
+.view-container {
+  width: 100%;
+  align-items: center;
+}
+.view__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  border-bottom: 0.2rem solid #0000ff;
+  border-left: 0.2rem solid #0000ff;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 2rem;
+}
+.view__header p {
+  font-size: 18px;
+}
+.input__container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+input {
+  width: 98%;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  border: 0.5px solid grey;
+}
+.paymentsDashboard {
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.reports__btn {
+  float: right;
+  padding-right: 1.6rem;
+  border: 0.5px solid blue;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+}
+.reports__btn:hover {
+  background: blue;
+  color: aliceblue;
+  cursor: pointer;
+}
+.paymentStatus h2 {
+  width: fit-content;
+  background: rgb(121, 162, 222);
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+}
+.table {
+  margin-top: 2rem;
+  height: fit-content;
+}
+.active {
+  color: green;
+}
+
+/* media queries */
+
+@media screen and (max-width: 672px) {
+  .viewPayment {
+    width: 100%;
+  }
+}
