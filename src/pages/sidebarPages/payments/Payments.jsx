@@ -103,13 +103,13 @@ export const PaymentsConfirmation = () => {
                 <thead>
                   <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Date</th>
                     <th scope="col">MID</th>
                     <th scope="col">Subscriber</th>
-                    <th scope="col">Mode</th>
-                    <th scope="col">Description</th>
-                    <th scope="col">Amount(GHS)</th>
-                    <th scope="col">Status</th>
+                    <th scope="col">Date Of Payment</th>
+                    <th scope="col">Mode  Of Payment</th>
+                    <th scope="col">Amount (GHS)</th>
+                    <th scope="col">Staff</th>
+                    <th scope="col">Action</th>
 
                   </tr>
                 </thead>
@@ -120,8 +120,8 @@ export const PaymentsConfirmation = () => {
                     <td>FCX08</td>
                     <td>Family</td>
                     <td> Momo</td>
-                    <td> VIP</td>
                     <td> 1,500</td>
+                    <td> Kasoa</td>
                     <td className="active"> Active</td>
 
                   </tr>
