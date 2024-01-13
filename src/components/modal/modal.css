@@ -13,7 +13,7 @@ option {
   width: 100%;
 }
 .form-control::placeholder {
-  color: rgba(100, 104, 104, 0.613);
+  color: rgba(100, 104, 104, 0.701);
 }
 .form-select {
 }

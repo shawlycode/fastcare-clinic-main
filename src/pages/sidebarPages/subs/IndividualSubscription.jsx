@@ -2,8 +2,8 @@ import React from 'react'
 import './indsubs.css'
 import logo from '../../../assets/fcclogo.png'
 import { CiEdit } from "react-icons/ci";
-import StaffModal from '../../../components/modal/StaffModal';
-
+import SubsModal from '../../../components/modal/subsModal/SubsModal';
+import { IoMdAdd } from "react-icons/io";
 
 const IndividualSubscription = () => {
   return (
@@ -21,7 +21,9 @@ const IndividualSubscription = () => {
           <div className="form">
             <input type="text" className="form-control" aria-label="input" placeholder="Search  with name or membership ID" />
             <div className="btn__inds">
-              <StaffModal />
+              < SubsModal />
+              <button type="button" className="btn addNew__btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"><span><IoMdAdd /></span>Add New Staff</button>
+
             </div>
           </div>
           <div className="table__data indSubs-table">

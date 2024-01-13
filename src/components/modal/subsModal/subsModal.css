@@ -1,0 +1,29 @@
+.mb-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.634);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.modal-inputContainer2 {
+  gap: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.634);
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.input-container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.input-container3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+selected {
+  color: #000;
+}
