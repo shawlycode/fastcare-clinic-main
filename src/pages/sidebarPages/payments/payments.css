@@ -4,6 +4,11 @@
   align-items: center;
   padding-left: 100px;
 }
+.payments {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
 .view-container {
   width: 100%;
   align-items: center;
@@ -25,7 +30,6 @@
   font-size: 18px;
 }
 .input__container {
-  margin-top: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,15 +116,25 @@ input {
     width: 100%;
     padding-left: 0;
   }
+  .payments {
+    margin: 0;
+    padding: 0;
+  }
   .makePayments {
     width: 100%;
     padding: 0;
     margin: 0;
-    padding-top: 15rem !important;
+    padding-top: 5rem !important;
     padding: 0.3rem;
+    height: 100vh;
   }
   .view-container {
-    padding: 0;
+    /* padding: 1; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+    margin: 0;
+    overflow: hidden;
   }
   .paymentsDashboard {
     width: 100%;
@@ -134,8 +148,9 @@ input {
   .view__header {
     display: flex;
     flex-direction: column;
-    padding-top: 5rem;
-    margin: 1rem;
+    margin-top: 5rem;
+    width: 400px;
+    margin: 0 auto;
   }
   .icon {
     display: none;
@@ -144,34 +159,34 @@ input {
     display: flex;
     flex-direction: column;
     margin: 1rem;
+    margin-top: 0;
   }
   .paymentStatus h2 {
-    width: 200px;
-    font-size: 22px;
+    width: 130px;
+    font-size: 12px;
   }
   .table {
     width: 100%;
     padding: 1rem;
     padding-left: 0;
-    height: 80vh;
+    height: fit-content;
+    margin: 0 auto;
   }
   thead {
     width: 400px;
-    /* background-color: #fff; */
-    margin-right: 1rem;
   }
   thead th {
-    font-size: 10px;
+    font-size: 9px;
     width: 100%;
     gap: 0.3rem;
   }
   tbody td {
-    font-size: 10px;
-    width: 1005;
+    font-size: 9px;
+    /* width: 1005; */
   }
   .table__data {
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
 }

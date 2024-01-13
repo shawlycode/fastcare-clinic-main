@@ -68,7 +68,7 @@ export const MakePayments = () => {
 
 export const PaymentsConfirmation = () => {
   return (
-    <div className="Payments">
+    <div className="payments">
       <div className="viewPayment">
         <div className="view-container">
           <div className="view__header">
@@ -105,8 +105,8 @@ export const PaymentsConfirmation = () => {
                     <th scope="col">#</th>
                     <th scope="col">MID</th>
                     <th scope="col">Subscriber</th>
-                    <th scope="col">Date Of Payment</th>
-                    <th scope="col">Mode  Of Payment</th>
+                    <th scope="col"> Payment Date</th>
+                    <th scope="col">Mode</th>
                     <th scope="col">Amount (GHS)</th>
                     <th scope="col">Staff</th>
                     <th scope="col">Action</th>

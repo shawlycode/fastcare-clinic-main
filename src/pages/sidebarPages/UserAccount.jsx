@@ -6,9 +6,6 @@ const UserAccount = () => {
       <div className='userAccount'>
         <div className="userAccount__container">
           <div className="header">
-            <div className="icon">
-
-            </div>
             <div className="header__text">
               <p>Setup User Accounts</p>
               <p>

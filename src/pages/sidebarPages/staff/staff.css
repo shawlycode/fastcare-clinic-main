@@ -4,28 +4,14 @@
   align-items: center;
   gap: 4rem;
 }
-.staff,
-.userAccount {
+.staff {
   width: 100%;
   align-items: flex-start;
   justify-content: center;
   padding-top: 100px;
 }
-.content {
-  width: 100%;
-  align-items: flex-start;
-  justify-content: center;
-  border: 1px solid rgba(128, 128, 128, 0.34);
-  padding: 1rem;
-  border-radius: 0.3rem;
-}
-.content label {
-  padding-bottom: 0;
-  padding-top: 1rem;
-}
 
-.staff__container,
-.userAccount__container {
+.staff__container {
   width: 1140px;
   align-items: center;
   padding-left: 100px;
@@ -50,10 +36,9 @@
   color: #fff;
   outline: none;
   border-style: none;
-  padding: 1rem;
+  padding: 0.4rem;
 }
-.submit__btn,
-.changePassword__btn {
+.submit__btn {
   background: #0252bb;
   padding: 0.4rem;
   border-radius: 0.3rem;
@@ -61,8 +46,7 @@
   color: #ffff;
   font-size: 16px;
 }
-.submit__btn:hover,
-.changePassword__btn:hover {
+.submit__btn:hover {
   background: #02449acb;
   padding: 0.4rem;
   border-radius: 0.3rem;
@@ -84,23 +68,7 @@
   border-radius: 0.3rem;
   padding: 1.2rem;
 }
-.table__data {
-  /* display: flex; */
-  justify-content: space-around;
-  align-items: center;
-  color: #fff;
-  border-radius: 0.3rem;
-}
-.table__data p {
-  padding-top: 10px;
-  letter-spacing: 1px;
-}
-.table__data-container {
-  padding: 1rem;
-  border: 1px solid rgba(128, 128, 128, 0.577);
-  margin-top: 2rem;
-  border-radius: 0.3rem;
-}
+
 thead {
   background: rgba(0, 0, 255, 0.318);
   /* width: 100%; */
@@ -117,9 +85,8 @@ tr {
 @media screen and (max-width: 672px) {
   .staff {
     width: 100vw;
-    padding: 1rem;
+    padding: 0.5rem;
     justify-content: center;
-    padding-bottom: 3rem;
   }
   .header {
     display: flex;
@@ -129,12 +96,9 @@ tr {
     padding: 2rem;
     margin: 0;
   }
+
   .icon {
     display: none;
-  }
-  .header__text p {
-    font-size: 14px;
-    padding-top: 5rem;
   }
   .staff__container {
     width: 100%;
@@ -154,7 +118,6 @@ tr {
     margin: auto;
   }
   .table__data {
-    width: 100%;
     padding-bottom: 2rem;
   }
   .new__staff-container {
@@ -162,28 +125,28 @@ tr {
     padding: 0.2rem;
     margin-bottom: 4rem;
   }
-  thead th {
+  /* thead th {
     font-size: 12px;
   }
   tbody td {
     font-size: 10px;
-  }
+  } */
   .addNew__btn {
     width: 80%;
     background: #023e8a;
     color: #fff;
     outline: none;
     border-style: none;
-    margin-bottom: 2rem;
+    margin-bottom: 0.6rem;
     margin-left: 40px;
   }
   .addNew__btn:hover {
     color: #fffffff1;
     background: #0252bb;
   }
-  .modal__staff {
+  /* .modal__staff {
     width: 100%;
-  }
+  } */
   .changePassword__btn {
     width: 100%;
     background: #023e8a;
@@ -191,14 +154,7 @@ tr {
     outline: none;
     border-style: none;
   }
-  .userAccount__container {
-    padding: 1rem;
-  }
-  .userAccount {
-    padding: 0;
-    height: 100vh;
-    padding-bottom: 5rem;
-  }
+
   .header {
     padding: 1rem;
     margin: 0;
@@ -211,7 +167,6 @@ tr {
     padding: 0;
   }
   .table__data-container {
-    height: 100vh;
     z-index: -20;
   }
 }
