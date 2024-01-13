@@ -3,7 +3,6 @@ import './modal.css'
 
 
 
-
 const StaffModal = () => {
   return (
     <div className="modal__container">
