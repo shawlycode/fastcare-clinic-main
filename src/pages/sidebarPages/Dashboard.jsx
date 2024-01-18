@@ -1,11 +1,14 @@
+
+
 import React from 'react'
 
 const Dashboard = () => {
   return (
     <div className='dashboard'>
-      <h2>DASHBOARD</h2>
+      DASHBOARD
     </div>
   )
 }
 
 export default Dashboard;
+

@@ -1,0 +1,67 @@
+.logo__1 {
+  width: 300px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border: 1px solid green;
+  height: 30px;
+  width: 90px;
+  margin-top: 0.8rem;
+}
+.btn:hover {
+  border: none;
+}
+.create {
+  font-size: 12px;
+  color: grey;
+}
+.header {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+main {
+  width: 90%;
+  margin-right: 3rem;
+  margin-left: 18rem !important;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.494);
+  border-radius: 0.3rem;
+}
+main h3 {
+  text-align: center;
+}
+.text {
+  border-bottom: 0.2rem solid #0000ff;
+  border-left: 0.2rem solid #0000ff;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 0.7rem;
+  margin: 1rem;
+}
+.text p {
+  font-size: 16px;
+  text-align: flex-start;
+}
+.input {
+  width: 90%;
+  margin: 0 auto;
+}
+input {
+  border: 1px solid rgba(128, 128, 128, 0.376);
+  background-color: #add3f331;
+  margin: 2rem 0;
+}
+.auto__table {
+  margin-bottom: 2rem;
+}
+.create__icon {
+  color: #0000ff;
+  align-items: center;
+  size: 120px;
+}
