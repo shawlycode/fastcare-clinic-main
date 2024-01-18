@@ -1,12 +1,6 @@
 import React from 'react';
 import ViewPayment from './ViewPayment';
-export const Payments = () => {
-  return (
-    <div className="Payments">
-      <h1>Payments</h1>
-    </div>
-  );
-};
+
 
 export const ViewPayments = () => {
   return (

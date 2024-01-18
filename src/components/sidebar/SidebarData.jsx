@@ -15,7 +15,7 @@ import { FaUsersViewfinder } from 'react-icons/fa6';
 export const SidebarData = [
   {
     title: 'Dashboard',
-    path: "/main/dashboard",
+    path: '/main/dashboard',
     icon: <AiFillDashboard />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
@@ -118,36 +118,36 @@ export const SidebarData = [
       },
       {
         title: 'UnMandated Subscribers',
-        path: 'main/autodebits/unmandated/subs',
+        path: 'main/autodebits/unMandatedSubs',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
   },
   {
     title: 'Reports & Analysis',
-    path: 'main/reports',
+    path: 'main/reports/analysis',
     icon: <LuLineChart />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
     subNav: [
       {
         title: 'Subscribers View',
-        path: '/subscribers',
+        path: 'main/subscribersView',
         icon: <FaUsersViewfinder />,
       },
       {
         title: 'Facility Performance',
-        path: 'main /reports/facility/performance',
+        path: 'main/reports/facilityPerformance',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Staff Collection Performance',
-        path: 'main/reports/facility/performance',
+        path: 'main/reports/staffPerformance',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Agents Commission List',
-        path: '/reports/facility/performance',
+        path: 'main/reports/agentsCommissionList',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
@@ -161,36 +161,37 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Facility Setup',
-        path: '/setting/facility/setup',
+        path: 'main/setting/facilitySetup',
         icon: <FaUsersViewfinder />,
       },
       {
         title: 'Facility Performance',
-        path: '/reports/facility/performance',
+        path: 'main/setting/facilityPerformance',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Package Setup',
-        path: '/setting/package/setup',
+        path: 'main/setting/packageSetup',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Call Comment Category',
-        path: '/settings/call/comments',
+        path: '/main/settings/callComments',
         // icon: <IoIcons.IoIosPaper />
       },
       {
         title: 'Groups & Associations',
-        path: '/setting/groups/associations',
+        path: 'main/setting/groupsAssociations',
         // icon: <IoIcons.IoIosPaper />
       },
     ],
   },
   {
     title: 'Charts',
-    path: '/charts',
+    path: '/main/charts',
     icon: <FaChartPie />,
     iconClosed: <MdOutlineArrowDropDown />,
     iconOpened: <IoMdArrowDropup />,
   },
+
 ];
