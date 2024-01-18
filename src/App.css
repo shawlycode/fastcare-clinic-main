@@ -13,12 +13,18 @@
 .resetPassword,
 .indSubs,
 .ind__groups-subs,
-.Payments {
+.customerCare,
+.Payments,
+.autodebits,
+.reports,
+.settings,
+.charts {
   display: flex;
-  height: 100vh;
+  /* height: 100vh; */
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  padding-top: 5rem;
 }
 /* * :root {
   --primary-color: #023e8a;
