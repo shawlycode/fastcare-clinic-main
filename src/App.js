@@ -41,6 +41,7 @@ export const MainPages = () => (
         <Route path='main/reports/facilityPerformance' element={<FacilityPerformance />} />
         <Route path='main/reports/staffPerformance' element={<StaffCollectionPerformance />} />
         <Route path='main/reports/agentsCommissionList' element={<AgentsCommissionList />} />
+        <Route path='main/reports/subscribersView' element={<SubscribersView />} />
         <Route path='main/setting/facilitySetup' element={<FacilitySetup />} />
         <Route path='main/setting/facilityPerformance' element={<FacilityPerformance />} />
         <Route path='main/setting/packageSetup' element={<PackageSetup />} />

@@ -132,7 +132,7 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Subscribers View',
-        path: 'main/subscribersView',
+        path: 'main/reports/subscribersView',
         icon: <FaUsersViewfinder />,
       },
       {
