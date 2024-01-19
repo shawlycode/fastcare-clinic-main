@@ -1,7 +1,7 @@
 .logo__1 {
   width: 300px;
 }
-.btn {
+.btn__create {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
   width: 90px;
   margin-top: 0.8rem;
 }
-.btn:hover {
+.btn__create:hover {
   border: none;
 }
 .create {
@@ -23,7 +23,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-main {
+.auto_container {
   width: 90%;
   margin-right: 3rem;
   margin-left: 18rem !important;
@@ -31,10 +31,10 @@ main {
   border: 1px solid rgba(128, 128, 128, 0.494);
   border-radius: 0.3rem;
 }
-main h3 {
+.auto_container h3 {
   text-align: center;
 }
-.text {
+.text__header {
   border-bottom: 0.2rem solid #0000ff;
   border-left: 0.2rem solid #0000ff;
   border-bottom-left-radius: 0.3rem;
@@ -44,15 +44,15 @@ main h3 {
   padding: 0.7rem;
   margin: 1rem;
 }
-.text p {
+.text__header p {
   font-size: 16px;
   text-align: flex-start;
 }
-.input {
+.auto-input__search {
   width: 90%;
   margin: 0 auto;
 }
-input {
+.auto-input__search {
   border: 1px solid rgba(128, 128, 128, 0.376);
   background-color: #add3f331;
   margin: 2rem 0;

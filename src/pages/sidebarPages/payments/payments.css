@@ -59,7 +59,7 @@
   flex-direction: column;
   width: 100%;
 }
-input {
+.payment-input {
   width: 98%;
   padding: 0.4rem;
   border-radius: 0.3rem;

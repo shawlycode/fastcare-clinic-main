@@ -19,15 +19,15 @@ export const UnMandatedSubscribers = () => {
 
   return (
     <div className='autodebits'>
-      <main>
+      <main className='auto_container'>
         <div className="header">
           <div ><img src={logo} alt="" className="logo__1" /></div>
         </div>
         <h3>Fetch Un-Mandated Subscribers</h3>
-        <div className="text">
+        <div className="text__header">
           <p>    Get all registered subscribers without Recurring Debit Mandates</p>
         </div>
-        <div className="input">
+        <div className="auto-input__search">
           <input type='search' placeholder='Search' />
         </div>
         <div className="table__data indSubs-table auto__table">
@@ -62,7 +62,7 @@ export const UnMandatedSubscribers = () => {
                   <td> Kwasi Adabo</td>
                   <td> 5</td>
                   <td> MTN</td>
-                  <div className="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <div className="btn__create " data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <MandateModal />
                     <td><MdCreateNewFolder color="green " size={'20px'} cursor={'pointer'} /></td> <span className='create'>Create</span>
                   </div>
@@ -79,7 +79,7 @@ export const UnMandatedSubscribers = () => {
                   <td> Kwasi Adabo</td>
                   <td> 5</td>
                   <td> MTN</td>
-                  <div className="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <div className="btn__create  " data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <MandateModal />
                     <td><MdCreateNewFolder color="green " size={'20px'} cursor={'pointer'} /></td> <span className='create'>Create</span>
                   </div>
@@ -96,7 +96,7 @@ export const UnMandatedSubscribers = () => {
                   <td> Kwasi Adabo</td>
                   <td> 5</td>
                   <td> MTN</td>
-                  <div className="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <div className="btn__create  " data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <MandateModal />
                     <td><MdCreateNewFolder color="green " size={'20px'} cursor={'pointer'} /></td> <span className='create'>Create</span>
                   </div>
@@ -113,7 +113,7 @@ export const UnMandatedSubscribers = () => {
                   <td> Kwasi Adabo</td>
                   <td> 5</td>
                   <td> MTN</td>
-                  <div className="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <div className="btn__create  " data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <MandateModal />
                     <td><MdCreateNewFolder color="green " size={'20px'} cursor={'pointer'} /></td> <span className='create'>Create</span>
                   </div>

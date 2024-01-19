@@ -164,11 +164,7 @@ export const SidebarData = [
         path: 'main/setting/facilitySetup',
         icon: <FaUsersViewfinder />,
       },
-      {
-        title: 'Facility Performance',
-        path: 'main/setting/facilityPerformance',
-        // icon: <IoIcons.IoIosPaper />
-      },
+
       {
         title: 'Package Setup',
         path: 'main/setting/packageSetup',

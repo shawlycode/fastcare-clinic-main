@@ -16,7 +16,7 @@ export const MakePayments = () => {
       <div className="input__container makepayMents-input">
         <div className="input__content">
           <label>Search</label>
-          <input type="text" placeholder='Name or Membership ID' />
+          <input type="text" placeholder='Name or Membership ID' className='payment-input' />
         </div>
         <p>
           Click on a name to make payment against that name. All payments should

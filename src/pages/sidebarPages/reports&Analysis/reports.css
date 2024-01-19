@@ -1,0 +1,46 @@
+.facility__header {
+  display: flex;
+  align-items: flex-center;
+  justify-content: center;
+  gap: 3rem;
+  border: 1px solid rgba(128, 128, 128, 0.494);
+  border-radius: 0.3rem;
+  width: 75%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.facility__input {
+  width: 400px;
+}
+.reports__container {
+  display: flex;
+  flex-direction: column;
+}
+.reports-table {
+  width: 75%;
+}
+.facility__reports {
+  width: 75%;
+  margin: 0 auto;
+  align-items: center;
+}
+.facility__charts {
+  width: 75%;
+  margin: 1rem;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.facility__barChart {
+  background: green;
+  margin-left: 1rem;
+  height: 100%;
+  width: 50%;
+}
+.facility__pieChart {
+  background: rgb(0, 75, 128);
+  margin-left: 1rem;
+  height: 100%;
+  width: 50%;
+}
