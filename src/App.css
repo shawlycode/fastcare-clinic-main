@@ -17,7 +17,7 @@
 .Payments,
 .autodebits,
 .reports,
-.settings,
+/* .settings, */
 .charts {
   display: flex;
   /* height: 100vh; */

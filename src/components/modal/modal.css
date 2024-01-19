@@ -15,8 +15,7 @@ option {
 .form-control::placeholder {
   color: rgba(100, 104, 104, 0.701);
 }
-.form-select {
-}
+
 @media screen and (max-width: 672px) {
   .mb-3 {
     display: grid;

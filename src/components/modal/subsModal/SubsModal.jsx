@@ -16,7 +16,7 @@ const SubsModal = () => {
             </div>
             <div className="modal-body">
               <form>
-                <div className="mb-3">
+                <div className="mb-3 subsModal">
                   <div className="input-container">
                     <label for="recipient-name" className="col-form-label">ID (Ghana Card Preferred)</label>
                     <select className="form-select form-select-xl form-select-md  form-select-sm " aria-label="Default select example">
